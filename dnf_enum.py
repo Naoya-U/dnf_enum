@@ -92,8 +92,8 @@ def total_literals_in_sop(cubes):
 
 n = int(input("変数の個数を入力: "))
 
-f_id = input("出力を順に入力")
-truth = [f_id[i] for i in range(len(f_id))]
+f_id = input("出力を順に入力: ")
+truth = list(map(int, f_id))
 minterms = {i for i, val in enumerate(truth) if val == 1}
 
 
