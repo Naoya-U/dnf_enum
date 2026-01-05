@@ -17,7 +17,7 @@ def cube_to_minterms(cube, n):
 
 def cube_to_string(cube):
     """cubeを文字列（例: a'b'd）に変換"""
-    vars = ["a", "b", "c", "d", "e", "f", "g", "h"]
+    vars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
     s = ""
     for v, val in zip(vars, cube):
         if val == 1:
